@@ -2,6 +2,8 @@
 import { useEffect, useState } from 'react'
 
 export default function ThemeToggle() {
+  console.log('ThemeToggle is rendering') // 👈 Add this line
+
   const [dark, setDark] = useState(false)
 
   useEffect(() => {
