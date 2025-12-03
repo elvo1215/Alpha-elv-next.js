@@ -1,4 +1,9 @@
-@import "tailwindcss";
+<h1 className="text-4xl font-bold text-blue-600 dark:text-yellow-300">
+  Hello, Alpha_elv
+</h1>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;@import "tailwindcss";
 
 :root {
   --background: #ffffff;
